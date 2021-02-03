@@ -7,7 +7,7 @@ on:
 
 env:
   TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  HUGO_ARGS: '--gc --themesDir ../..'
+  HUGO_ARGS: '--gc --minify'
 
 jobs:
   build:

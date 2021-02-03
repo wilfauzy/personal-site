@@ -7,7 +7,7 @@ on:
 
 env:
   TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  HUGO_ARGS: 'cd exampleSite && hugo --gc --themesDir ../..'
+  HUGO_ARGS: 'cd exampleSite && --gc --themesDir ../..'
 
 jobs:
   build:
